@@ -184,7 +184,7 @@ class TestWeblateBackend(unittest.TestCase):
         self.assertListEqual(changes_no_timestamp, changes_expected_no_timestamp)
 
         requests_path_expected = [
-            '/api/changes?timestamp_after=1970-01-01T00%3A00%3A00%2B00%3A00',
+            '/api/changes/?timestamp_after=1970-01-01T00%3A00%3A00%2B00%3A00',
             '/api/users/1?id=1&type=user',
             '/api/users/1?id=1&type=author',
             '/api/units/1',
@@ -217,7 +217,7 @@ class TestWeblateBackend(unittest.TestCase):
         self.assertListEqual(changes_no_timestamp, changes_expected_no_timestamp)
 
         requests_path_expected = [
-            '/api/changes?timestamp_after=1970-01-01T00%3A00%3A00%2B00%3A00',
+            '/api/changes/?timestamp_after=1970-01-01T00%3A00%3A00%2B00%3A00',
             '/api/users/1?id=1&type=user',
             '/api/users/1?id=1&type=author',
             '/api/units/1',
@@ -253,7 +253,7 @@ class TestWeblateBackend(unittest.TestCase):
         self.assertListEqual(changes_no_timestamp, changes_expected_no_timestamp)
 
         requests_path_expected = [
-            '/api/changes?timestamp_after=2020-01-01T00%3A00%3A00%2B00%3A00',
+            '/api/changes/?timestamp_after=2020-01-01T00%3A00%3A00%2B00%3A00',
             '/api/users/2?id=3&type=user',
             '/api/users/2?id=3&type=author'
         ]
@@ -365,7 +365,7 @@ class TestWeblateClient(unittest.TestCase):
         self.assertListEqual(changes[1], changes_expected_page_2)
 
         requests_path_expected = [
-            '/api/changes',
+            '/api/changes/',
             '/api/changes/?page=2'
         ]
         self.assertEqual(len(http_requests), len(requests_path_expected))

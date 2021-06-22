@@ -264,8 +264,8 @@ class WeblateClient(HttpClient, RateLimitHandler):
             unit = response.json()
             return unit
         except requests.exceptions.HTTPError as error:
-            logger.error("Error fetching {}: {}".format(url, error))
-            raise error
+            logger.warning("Error fetching {}: {}".format(url, error))
+            return
 
     def user(self, url, payload=None):
         """Fetch user data"""
@@ -291,14 +291,15 @@ class WeblateClient(HttpClient, RateLimitHandler):
         """Fetch changes of a project."""
 
         payload = {}
-
         if from_date:
             payload[self.PAFTER] = from_date.isoformat()
 
+        # Since weblate 4.7 'changes' must end with '/' as '.../api/changes/'
+        # or it will return 404 (Page Not Found).
         if self.project:
-            path = urijoin(self.base_url, 'projects', self.project, 'changes')
+            path = urijoin(self.base_url, 'projects', self.project, 'changes') + '/'
         else:
-            path = urijoin(self.base_url, 'changes')
+            path = urijoin(self.base_url, 'changes') + '/'
 
         return self.fetch_items(path, payload)
 
