@@ -10,9 +10,9 @@ The backends currently managed by this package support the next repositories:
 
 ## Requirements
 
-* Python >= 3.6
+* Python >= 3.7
 * python3-requests >= 2.7
-* grimoirelab-toolkit >= 0.1.12
+* grimoirelab-toolkit >= 0.2.0
 * perceval >= 0.17.1
 
 ## Installation
