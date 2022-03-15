@@ -1,4 +1,4 @@
-# perceval-weblate [![Build Status](https://github.com/chaoss/grimoirelab-perceval-weblate/workflows/build/badge.svg)](https://github.com/chaoss/grimoirelab-perceval-weblate/actions?query=workflow:build+branch:master+event:push) [![Coverage Status](https://img.shields.io/coveralls/chaoss/grimoirelab-perceval-weblate.svg)](https://coveralls.io/r/chaoss/grimoirelab-perceval-weblate?branch=master)
+# perceval-weblate [![Build Status](https://github.com/chaoss/grimoirelab-perceval-weblate/workflows/tests/badge.svg)](https://github.com/chaoss/grimoirelab-perceval-weblate/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/coveralls/chaoss/grimoirelab-perceval-weblate.svg)](https://coveralls.io/r/chaoss/grimoirelab-perceval-weblate?branch=master)
 
 Bundle of Perceval backends for Weblate.
 
@@ -10,9 +10,9 @@ The backends currently managed by this package support the next repositories:
 
 ## Requirements
 
-* Python >= 3.6
+* Python >= 3.7
 * python3-requests >= 2.7
-* grimoirelab-toolkit >= 0.1.12
+* grimoirelab-toolkit >= 0.2.0
 * perceval >= 0.17.1
 
 ## Installation
