@@ -26,11 +26,8 @@ import dateutil
 import httpretty
 import json
 import os
-import pkg_resources
 import unittest
 import warnings
-
-pkg_resources.declare_namespace('perceval.backends')
 
 from perceval.backend import BackendCommandArgumentParser
 from perceval.backends.weblate.weblate import (Weblate,
