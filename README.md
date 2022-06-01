@@ -10,10 +10,10 @@ The backends currently managed by this package support the next repositories:
 
 ## Requirements
 
-* Python >= 3.7
-* python3-requests >= 2.7
-* grimoirelab-toolkit >= 0.2.0
-* perceval >= 0.17.1
+These set of backends requires Python 3.7 or later, and
+[Perceval](https://github.com/chaoss/grimoirelab-perceval/) to run.
+For other Python dependencies, please check the `pyproject.toml`
+file included on this repository.
 
 ## Installation
 
