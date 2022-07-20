@@ -169,7 +169,7 @@ python-versions = "*"
 
 [[package]]
 name = "perceval"
-version = "0.19.0"
+version = "0.19.1"
 description = "Send Sir Perceval on a quest to fetch and gather data from software repositories."
 category = "main"
 optional = false
@@ -316,7 +316,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "8655d0497aa1e2fccf14a5e305269ee1d9ebd7ffc94bb0241b70f1e4643bbe3b"
+content-hash = "9a31f0fbccfd89a5a98b4b5c1937748e2c887a51d74c570640f687b67edfb3f2"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -498,8 +498,8 @@ mccabe = [
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
 ]
 perceval = [
-    {file = "perceval-0.19.0-py3-none-any.whl", hash = "sha256:7bd8af18e7a7bd61fdf73d3f676defb2eaef7d9ee3c0bd8e47a3d68f70bb86b5"},
-    {file = "perceval-0.19.0.tar.gz", hash = "sha256:834a9b4aa2ff585b3a7f7485b4f3600f979b632714c6ac39e8ecd4824dca6c33"},
+    {file = "perceval-0.19.1-py3-none-any.whl", hash = "sha256:d8b5222b8eaeb81c3fb64ddb8805b563061b21b62ae3fe4501d5d9e38fed5da3"},
+    {file = "perceval-0.19.1.tar.gz", hash = "sha256:9964a5dc78718d3c45dc05e63ec895667c71418d272fbfde3a6958cf99db73fc"},
 ]
 pycodestyle = [
     {file = "pycodestyle-2.8.0-py2.py3-none-any.whl", hash = "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20"},
