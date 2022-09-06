@@ -66,7 +66,7 @@ python-versions = ">=3.6"
 cffi = ">=1.12"
 
 [package.extras]
-docs = ["sphinx (>=1.6.5,!=1.8.0,!=3.1.0,!=3.1.1)", "sphinx-rtd-theme"]
+docs = ["sphinx (>=1.6.5,!=1.8.0,!=3.1.0,!=3.1.1)", "sphinx_rtd_theme"]
 docstest = ["doc8", "pyenchant (>=1.6.11)", "sphinxcontrib-spelling (>=4.0.1)", "twine (>=1.12.0)"]
 pep8test = ["black", "flake8", "flake8-import-order", "pep8-naming"]
 sdist = ["setuptools-rust (>=0.11.4)"]
@@ -169,7 +169,7 @@ python-versions = "*"
 
 [[package]]
 name = "perceval"
-version = "0.20.0rc3"
+version = "0.20.0rc4"
 description = "Send Sir Perceval on a quest to fetch and gather data from software repositories."
 category = "main"
 optional = false
@@ -498,8 +498,8 @@ mccabe = [
     {file = "mccabe-0.6.1.tar.gz", hash = "sha256:dd8d182285a0fe56bace7f45b5e7d1a6ebcbf524e8f3bd87eb0f125271b8831f"},
 ]
 perceval = [
-    {file = "perceval-0.20.0rc3-py3-none-any.whl", hash = "sha256:b73e2c0efe08bb597fda82951bc3c9c60617abe5a33b229dea71dbd4224988ce"},
-    {file = "perceval-0.20.0rc3.tar.gz", hash = "sha256:77533d0f736c958612410f52654360a076519308a945f0b61e825831c4ad9680"},
+    {file = "perceval-0.20.0rc4-py3-none-any.whl", hash = "sha256:45af4f31bd1b99385f24bb4fc988a066a6b0f3e45d972f2ce84bd695f8e3d37c"},
+    {file = "perceval-0.20.0rc4.tar.gz", hash = "sha256:8fbca60b4f10b15daec82d05e80189b2eb7b7cabc64ee087fea34eece97563cd"},
 ]
 pycodestyle = [
     {file = "pycodestyle-2.8.0-py2.py3-none-any.whl", hash = "sha256:720f8b39dde8b293825e7ff02c475f3077124006db4f440dcbc9a20b76548a20"},
