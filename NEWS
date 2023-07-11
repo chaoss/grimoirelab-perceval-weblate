@@ -1,5 +1,9 @@
 # Releases
 
+  ## perceval-weblate 0.2.13 - (2023-07-11)
+  
+  * Update Poetry's package dependencies
+
   ## perceval-weblate 0.2.12 - (2023-06-28)
   
   * Update Poetry's package dependencies
