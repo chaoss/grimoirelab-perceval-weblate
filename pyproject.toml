@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "perceval-weblate"
-version = "1.0.0-rc.2"
+version = "1.0.0"
 description = "Bundle of Perceval backends for Weblate."
 authors = [
     "GrimoireLab Developers"
