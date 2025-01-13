@@ -1,4 +1,4 @@
-# perceval-weblate [![Build Status](https://github.com/chaoss/grimoirelab-perceval-weblate/workflows/tests/badge.svg)](https://github.com/chaoss/grimoirelab-perceval-weblate/actions?query=workflow:tests+branch:master+event:push) [![Coverage Status](https://img.shields.io/coveralls/chaoss/grimoirelab-perceval-weblate.svg)](https://coveralls.io/r/chaoss/grimoirelab-perceval-weblate?branch=master) [![PyPI version](https://badge.fury.io/py/perceval-weblate.svg)](https://badge.fury.io/py/perceval-weblate)
+# perceval-weblate [![Build Status](https://github.com/chaoss/grimoirelab-perceval-weblate/workflows/tests/badge.svg)](https://github.com/chaoss/grimoirelab-perceval-weblate/actions?query=workflow:tests+branch:main+event:push) [![Coverage Status](https://img.shields.io/coveralls/chaoss/grimoirelab-perceval-weblate.svg)](https://coveralls.io/r/chaoss/grimoirelab-perceval-weblate?branch=main) [![PyPI version](https://badge.fury.io/py/perceval-weblate.svg)](https://badge.fury.io/py/perceval-weblate)
 
 Bundle of Perceval backends for Weblate.
 
