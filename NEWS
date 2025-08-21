@@ -1,5 +1,9 @@
 # Releases
 
+  ## perceval-weblate 1.0.19 - (2025-08-21)
+  
+  * Update Poetry's package dependencies
+
   ## perceval-weblate 1.0.18 - (2025-08-18)
   
   * Update Poetry's package dependencies
